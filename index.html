@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ViewCliente</title>
+    <link rel="stylesheet" href="./styles.css/index.css">
+</head>
+<body>
+    <div class="container">
+        <form>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome">
+
+            <label for="cnpj">CNPJ:</label>
+            <input type="text" id="cnpj" name="cnpj">
+
+            <label for="projeto">Projeto:</label>
+            <input type="text" id="projeto" name="projeto">
+
+            <label for="local">Local:</label>
+            <input type="text" id="local" name="local">
+
+            <label for="data">Data:</label>
+            <input type="date" id="data" name="data">
+
+            <label for="volumes">Volumes:</label>
+            <input type="text" id="volumes" name="volumes">
+
+            <label for="endereco">Endereço:</label>
+            <input type="text" id="endereco" name="endereco">
+
+            <div class="buttons">
+                <button type="button">Cadastrar</button>
+                <button type="button">Alterar</button>
+                <button type="button">Deletar</button>
+                <button type="button">Listar</button>
+            </div>
+
+        </form>
+        <table id="listagem">
+            <!-- DataGridView content will go here -->
+        </table>
+    </div>
+</body>
+</html>
