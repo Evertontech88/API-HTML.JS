@@ -1,8 +1,9 @@
 body {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     margin: 20px;
     text-align: center;
     flex-direction: column;
+    background-color: #4e93c2;;
 }
 
 
